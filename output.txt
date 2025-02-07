@@ -1,0 +1,21 @@
+warning: unused import: `std::fs`
+ --> src/lib.rs:2:5
+  |
+2 | use std::fs;
+  |     ^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` on by default
+
+warning: `minigrep` (lib) generated 1 warning (run `cargo fix --lib -p minigrep` to apply 1 suggestion)
+warning: unused import: `std::process`
+ --> src/main.rs:2:5
+  |
+2 | use std::process;
+  |     ^^^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` on by default
+
+warning: `minigrep` (bin "minigrep") generated 1 warning (run `cargo fix --bin "minigrep"` to apply 1 suggestion)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.00s
+     Running `target/debug/minigrep`
+Problem parsing arguments: Not enough arguments
